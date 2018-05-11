@@ -19,7 +19,7 @@ Sustainable development of the world’s food production and supply systems is e
 ### Astronomy : Building a workflow to deploy a radio astronomy calibration & imaging pipeline to the cloud - Eugene de Beste & Herbert Nguruwe. 
 Reproducible scientific pipelines have historically been a challenge in most computationally focussed fields. The Common Workflow Language (CWL) is a standard for specifying and simplifying the process of executing scientific processing pipelines, while ensuring simplicity of use, portability and reproducibility. This project will focus on transforming an existing Python and Jupyter Notebook based pipeline for calibration and imaging of radio telescope data. Participants will complete a CWL-ified workflow in a Jupyter environment and execute it on the IDIA cloud.
 
-## Shortcuts to Projects in IDIA
+## Shortcuts for projects in IDIA Cloud
 - Radio Source Detection and Classification : rsdc
 - Image-based data mining to improve radiotherapy for cancer treatment : idmrct
 - Machine Learning for extracting Stellar Rotation Periods from Kepler data: mlsprk
@@ -28,12 +28,12 @@ Reproducible scientific pipelines have historically been a challenge in most com
 
 
 ## First step
- You have received your username and password for the IDIA cloud system. You are welcome to change you password by 
+ After receiving your username and password for the IDIA cloud VM you are welcome to change you password by 
  ssh'ing to jedi's VM using the code/line below.
  ```
  ssh -XY username@jedi.idia.ac.za
  ```
- Upon successful login you may change your password to the one that you are more comfortable. This you can do by 
+ Upon successful login you may change your password to the one that you are more comfortable with. This you can do by typing
  ```
  passwd
  ```
@@ -42,7 +42,7 @@ You may follow the instructions that follow in changing your password
 You can also login to the JupyterLab using https://jedi.idia.ac.za  and use your username and password(Unfortunately you cannot change your password).
 
 ## Groups
-All users  belong to a certain group and the 2 main groups are student or tutor groups:
+All users  belong to a certain group and the 2 main groups are students or tutors groups:
 - students : you are a student and belong to students group
 - tutors : you are a tutor and you belong to the tutors group
 The  other groups are classsifed at projects level
@@ -55,7 +55,7 @@ The  other groups are classsifed at projects level
 If you want to check/verify which group you belong to, ssh to the machine (`ssh -XY username@jedi.idia.ac.za`) and type `groups`, you will see all the groups you belong to.
 
 ## Storage
-Our virtual machine access to data is managed with Unix groups.
+Our VM's access to data is managed by Unix groups.
 
 * `/data/users` This is the home directory
 * `/data/containers`  This contains all containers that are available 
