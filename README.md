@@ -39,12 +39,12 @@ Reproducible scientific pipelines have historically been a challenge in most com
  ```
 You may follow the instructions that follow in changing your password
 
-You can also login to the JupyterLab using https://jedi.idia.ac.za  and use your username and password.
+You can also login to the JupyterLab using https://jedi.idia.ac.za  and use your username and password(Unfortunately you cannot change your password).
 
 ## Groups
 All users  belong to a certain group and the 2 main groups are student or tutor groups:
-#### student 
-#### tutor 
+- students : you are a student and belong to students group
+- tutors : you are a tutor and you belong to the tutors group
 The  other goups are classsifed at projects level
 - rsdc :  You belong to the rsdc goup
 - idmrct :  You belong to the idmrct goup
@@ -55,3 +55,9 @@ The  other goups are classsifed at projects level
 If you want to check/verify which group you belong to, ssh to the machine (`ssh -XY username@jedi.idia.ac.za`) and type `groups`, you will see all the groups you belong to.
 
 ## Storage
+Our virtual machine access to data is managed with Unix groups.
+
+* `/data/users` This where we have home directory
+* `/data/containers`  This holds all containers that are available 
+* `/data/tutors`  This is an extra folder that tutors can use to collaborate if needed
+* `/data/projects` This is where all project data is, it is also devided into project folders. You only have the write access to the project folder you belong to.
