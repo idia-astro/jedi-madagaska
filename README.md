@@ -57,7 +57,7 @@ If you want to check/verify which group you belong to, ssh to the machine (`ssh 
 ## Storage
 Our virtual machine access to data is managed with Unix groups.
 
-* `/data/users` This where we have home directory
-* `/data/containers`  This holds all containers that are available 
+* `/data/users` This is the home directory
+* `/data/containers`  This contains all containers that are available 
 * `/data/tutors`  This is an extra folder that tutors can use to collaborate if needed
 * `/data/projects` This is where all project data is, it is also devided into project folders. You only have the write access to the project folder you belong to.
