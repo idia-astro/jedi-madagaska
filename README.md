@@ -19,7 +19,7 @@ Sustainable development of the world’s food production and supply systems is e
 ### Astronomy : Building a workflow to deploy a radio astronomy calibration & imaging pipeline to the cloud - Eugene de Beste & Herbert Nguruwe. 
 Reproducible scientific pipelines have historically been a challenge in most computationally focussed fields. The Common Workflow Language (CWL) is a standard for specifying and simplifying the process of executing scientific processing pipelines, while ensuring simplicity of use, portability and reproducibility. This project will focus on transforming an existing Python and Jupyter Notebook based pipeline for calibration and imaging of radio telescope data. Participants will complete a CWL-ified workflow in a Jupyter environment and execute it on the IDIA cloud.
 
-## Shorcuts to Projects in IDIA
+## Shortcuts to Projects in IDIA
 - Radio Source Detection and Classification : rsdc
 - Image-based data mining to improve radiotherapy for cancer treatment : idmrct
 - Machine Learning for extracting Stellar Rotation Periods from Kepler data: mlsprk
@@ -33,7 +33,7 @@ Reproducible scientific pipelines have historically been a challenge in most com
  ```
  ssh -XY username@jedi.idia.ac.za
  ```
- Upon successful login  you may change your password to the one that you are more comfortable. This you can do by 
+ Upon successful login you may change your password to the one that you are more comfortable. This you can do by 
  ```
  passwd
  ```
@@ -45,7 +45,7 @@ You can also login to the JupyterLab using https://jedi.idia.ac.za  and use your
 All users  belong to a certain group and the 2 main groups are student or tutor groups:
 - students : you are a student and belong to students group
 - tutors : you are a tutor and you belong to the tutors group
-The  other goups are classsifed at projects level
+The  other groups are classsifed at projects level
 - rsdc :  You belong to the rsdc goup
 - idmrct :  You belong to the idmrct goup
 - mlsprk :  You belong to the mlsprk goup
