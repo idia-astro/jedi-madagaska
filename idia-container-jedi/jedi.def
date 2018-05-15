@@ -152,7 +152,7 @@ Include: software-properties-common
   conda install -yc omnia autograd
 
   # Create /users to bind home directories into the container.
-  mkdir -p /users /scratch /data
+  mkdir -p /data
 
 	# Cleanup the container
 	apt-get clean
