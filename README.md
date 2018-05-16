@@ -45,7 +45,9 @@ You can also login to the JupyterLab using https://jedi.idia.ac.za  and use your
 All users  belong to a certain group and the 2 main groups are students or tutors groups:
 - students : you are a student and belong to students group
 - tutors : you are a tutor and you belong to the tutors group
+
 The  other groups are classsifed at projects level
+
 - rsdc :  You belong to the rsdc goup
 - idmrct :  You belong to the idmrct goup
 - mlsprk :  You belong to the mlsprk goup
